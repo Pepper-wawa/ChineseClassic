@@ -1,0 +1,11 @@
+# 依赖
+node_modules/
+package-lock.json
+
+# VitePress 缓存与打包产物
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
