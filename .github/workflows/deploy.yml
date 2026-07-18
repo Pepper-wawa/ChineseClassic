@@ -13,10 +13,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: 'pnpm'
 
-      - name: 安装 pnpm
-        run: corepack enable pnpm
+      - name: 全局安装 pnpm
+        run: npm install -g pnpm
 
       - name: 安装项目依赖
         run: pnpm install
