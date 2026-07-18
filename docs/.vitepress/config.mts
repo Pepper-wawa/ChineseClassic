@@ -15,6 +15,7 @@ export default defineConfig({
 
   markdown: {
     lineNumbers: true,           // 代码块显示行号
+    html: true
   },
 
   // ========== 默认主题配置 themeConfig ==========
