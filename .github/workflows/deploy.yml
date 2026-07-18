@@ -2,6 +2,8 @@ name: Deploy VitePress Docs
 on:
   push:
     branches: [ main ]
+permissions:
+  contents: write  # 显式授予仓库写入权限，解决128报错
 jobs:
   deploy:
     runs-on: ubuntu-latest
